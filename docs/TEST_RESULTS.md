@@ -1,4 +1,21 @@
-# RC1测试摘要
+# 软件测试记录
+
+## 0.2.0独立Wheel复测
+
+2026-10-15：**WINDOWS_WHEEL_AND_CLI_PASS**。Windows / Python3.13.1，新建隔离venv，非编辑安装；测试与CLI从无关工作目录通过`-I -B`调用已安装包。
+
+- 正式Wheel：`hollow_core_fiber_numerical_study-0.2.0-py3-none-any.whl`。
+- Wheel SHA256：`035e2428d25531169680f65b4fd760b869e0353962fa7d9eda935dfed0fbf1a7`。
+- **118 passed in 4.64s**；0失败、0跳过。新增测试验证正式分发名、版本、Python约束及旧分发未安装。Wheel内8份Python源码与当前包源码hash一致。
+- NumPy2.5.4、Pydantic2.14.1、pytest9.1.1；可选matplotlib3.11.2；setuptools84.0.0、wheel0.48.0。
+- M1正常/异常配置，M2人工算术，M3正常/worker失败/验收失败/拒绝覆盖全部实际执行，退出码符合下方历史场景表；新版独立运行记录不沿用旧验收。
+- 人工Fourier图实际生成：最大复系数误差`4.4048e-16`，重构误差`1.5701e-15`，文本画布检查通过；图经目视复核调整图例位置。PNG、SVG及解析参考JSON随仓库保留。
+
+**保留的失败：**首次运行`run_a1`为117通过、1失败（8.41秒）。新增元数据测试把语义等价的`<3.14,>=3.13`与`>=3.13,<3.14`作字符串比较，导致误报。改为比较精确约束集合后完整复测；没有放宽Python范围，也没有修改数值算法。失败日志、复测命令、JUnit、依赖快照及Wheel均保存在公开仓库之外。
+
+本次未运行COMSOL，未引入研究数据；没有Linux或其他Python版本验收。Python安装范围不等于所有版本实测通过。
+
+## RC1历史测试摘要（不作为0.2.0验收）
 
 日期：2026-10-15。状态：**RC_WINDOWS_WHEEL_RETEST_PASS**。
 

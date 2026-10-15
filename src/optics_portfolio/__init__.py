@@ -1,2 +1,2 @@
-"""Private M2 prototype. All bundled samples are manufactured algebraic data."""
-__version__ = "0.1.0"
+"""Numerical toolkit. All bundled samples are manufactured algebraic data."""
+__version__ = "0.2.0"

@@ -1,4 +1,6 @@
-# Direct runtime/test versions used for RC1 qualification, not a hashed lockfile.
+# Direct runtime/test/optional plotting versions used for 0.2.0 qualification.
+# Not a complete hashed lockfile.
 numpy==2.5.4
 pydantic==2.14.1
 pytest==9.1.1
+matplotlib==3.11.2

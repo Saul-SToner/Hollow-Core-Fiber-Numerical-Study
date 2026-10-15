@@ -1,4 +1,10 @@
-# RC1发布准入表
+# 发布准入与版本边界
+
+## 0.2.0修订
+
+正式分发名称改为`hollow-core-fiber-numerical-study`；导入名不变。修订包括人工Fourier图、首页说明、独立限制文档、Python版本声明及元数据回归测试。新版独立构建Wheel并复测，结果见[TEST_RESULTS.md](TEST_RESULTS.md)。本修订已获所有者推送授权；实际发布身份以Git提交记录为准。未添加许可证、研究数据或个人贡献宣称。
+
+## RC1历史准入表（不作为新版验收）
 
 2026-10-15。总体：**TECHNICAL_RC_READY / OWNER_AUTHORIZED_PUBLIC_UPLOAD**。所有者已在本次发布前明确确认公开及派生权限、接受暂不添加开源许可证；这不是独立法律或作者贡献认证。
 

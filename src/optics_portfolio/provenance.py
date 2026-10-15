@@ -54,7 +54,7 @@ def run_dummy(case,out,*,timeout_s=10):
             state['algorithmic_validation']=result['algorithmic_validation']
         state['ended_utc']=_time()
         state['runtime']={'python':sys.version.split()[0],
-            'package_version':importlib.metadata.version('optics-portfolio-m2-private')}
+            'package_version':importlib.metadata.version('hollow-core-fiber-numerical-study')}
         write_atomic(out/'state.json',state)
         artifacts={p.name:digest(p) for p in out.iterdir() if p.is_file()}
         write_atomic(out/'manifest.json',{'provenance':LABEL,'SHA256':artifacts})

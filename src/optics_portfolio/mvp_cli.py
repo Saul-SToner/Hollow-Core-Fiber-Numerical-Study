@@ -5,7 +5,7 @@ from pathlib import Path
 import sys
 
 def main():
-    p=argparse.ArgumentParser(description='Private M1/M2/M3 algebraic demos only')
+    p=argparse.ArgumentParser(description='M1/M2/M3 algebraic demos only; no physics solver')
     sub=p.add_subparsers(dest='command',required=True)
     m1=sub.add_parser('parameters');m1.add_argument('--config',required=True);m1.add_argument('--out',required=True)
     m2=sub.add_parser('fields-demo');m2.add_argument('--out',required=True)
