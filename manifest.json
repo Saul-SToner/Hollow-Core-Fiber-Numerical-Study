@@ -1,0 +1,31 @@
+{
+  "status": "REAL_SAVED_SOLUTION_CASE_OFFLINE_REVIEWED",
+  "date": "2026-10-15",
+  "new_comsol_runs": 0,
+  "authorization_scope": "three derived figures, minimal plotting data, methods and necessary scripts",
+  "SHA256": {
+    ".gitattributes": "077e1dfbeceea35cb3a00a430f6a336072a049b9cdcf431c243000a2a50e6396",
+    ".gitignore": "2a391ea2ae0092600b0209455bdaffc07e44f6ef3ea6d85f022c782889acba24",
+    "README.md": "e3d7399d4fd53978fadb2af5c33bcd9d2db83dbebaa8ce340ac29dfd31c6576c",
+    "data/derived/center_boundary_segments.csv": "ff9f860c0d519e3a9e39a88492de9180f5ff1973bac2ab0405d2a758cd383dff",
+    "data/derived/center_parent2_intensity.csv": "06a6932599dc5871650729fff72b1628e20024ea32f9ae16384f5369d5e27b63",
+    "data/derived/low_order_tangential_coefficients.csv": "622e498f13ba741cc9c3fd747754356b0dbb3e5f4fb230c102551c7e47aa67c1",
+    "data/derived/mesh_comparison.csv": "55c5b50d53886f736b66480d65dea941b1c351a58c93b9732907208839203f6b",
+    "data/derived/power_balance_parent2.csv": "34e75d20d7f7693f6bf5981778a8c89625607287b85e8556960e220776db79de",
+    "data/derived/rint_parent2.csv": "57ed53e6ecd16433572750878fbb0ea4fd9bf780fb4b87ff95451afbb382a5ee",
+    "data/derived/source_registry.json": "a4e67fd9cbc55b9487647d282983b3b01e747bfd2e4f7159e77c3475c994513a",
+    "docs/limitations.md": "b734a752c0ace35b5070f2329c4e303c76e5043342d16a3242dc194939dc146b",
+    "docs/methods.md": "15accb52c53a08ffeb57b53cbe6f2a1abc6e8d758803561886fac4ad32eda085",
+    "docs/provenance.md": "3c666603742ea514ac897eb4357ae903d4eef44a8207f140b81ed8f8354083b3",
+    "docs/validation.md": "80bbaaf1a1455f47691646ff1ed9a792a2035ef38d82758f85ffa6262827fc35",
+    "figures/01_geometry_mode.png": "f902788f151f9ff2e2ea4b06bf54a9cd9f9d0d3aedfb5f513c5b3e04864e1591",
+    "figures/01_geometry_mode.svg": "263dc38bc4781b91ed27748ee982eea7f8e43ac7bcaa00c9852b9158b3c0ead5",
+    "figures/02_geometry_response.png": "833faf45d132f19f793573d2017aa8651b0c0a8b0b91eb06103398ddf992fcd4",
+    "figures/02_geometry_response.svg": "1858406740f4743d7f083dd9aad49b946e53b4e75036433da1220c98a711ae58",
+    "figures/03_numerical_reliability.png": "6f234e48e8b1103b3b80ecd020a16dca3499e9e4f7a5789647333fb4e689b2f2",
+    "figures/03_numerical_reliability.svg": "1088cd96462cda1230ebe61f9d0042273777f483d54b34000407c16263ada50f",
+    "requirements.txt": "10c3034bdb03481e6754bdf6038729220d9625d3a25a36065004222ec67d6d4c",
+    "scripts/plot_case.py": "89229deabf65a5ed4166a4f0898d32e10501dc559bfb49ca26d25252ce2d9948",
+    "scripts/validate_case.py": "9f54f6b5077584b11a772e761a74b0951a153ac59f713725cd798fd2fa47df96"
+  }
+}

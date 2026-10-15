@@ -1,0 +1,60 @@
+{
+  "data_origin": "ACTUAL_SAVED_COMSOL_SOLUTIONS",
+  "wavelength_um": 1.54,
+  "m_c4": 2,
+  "parent_mapping": {
+    "CENTER": 2,
+    "Rint_minus": 4,
+    "Rint_plus": 4
+  },
+  "sources": {
+    "S1": {
+      "description": "analysis.json",
+      "sha256": "9391c78b4928bfbfa065cd549a569859f5ac351d54663c573f5fce30e3a1921b"
+    },
+    "S2": {
+      "description": "manifest.json",
+      "sha256": "ed9ced384182e04a5310d6e3888a9d1b2a589e435bec42217a447b28c7e6ba34"
+    },
+    "S3": {
+      "description": "input_seal.json",
+      "sha256": "723d4e1c02e87d41b7e3f130113cfb93e7dc7e47a393d390ec70bc20309fcefb"
+    },
+    "S4": {
+      "description": "HOM_identity_and_target.json",
+      "sha256": "9f750ac9056b324491fd308e6e30cde45ce5fc36aac2d9c56ce94a2f13ad536f"
+    },
+    "S5": {
+      "description": "HOM_identity_and_target.json",
+      "sha256": "7f1b737acb8ff5dee1d305d02bf11e63a22ce1cb457282b0c0fe634177dc2464"
+    },
+    "S6": {
+      "description": "result.json",
+      "sha256": "1add8f8b93b761afa130a0a92bd5cdaccbf9a539e2c78927e8b688892f3d9c65"
+    },
+    "S7": {
+      "description": "25a_l1p54_HOM_RESPONSE_m2_a1_fields.npz",
+      "sha256": "58a9a4250a6c8bd478034e5f84fdb7ca2ac988d20468dbb0d0462341fbbd93c5"
+    },
+    "S8": {
+      "description": "manifest.json",
+      "sha256": "ca3111fe43a7e27c06785c34fe739349b445c59b6e399e5c25dfa8b8f897bfb8"
+    },
+    "S9": {
+      "description": "raw_vertices.npy",
+      "sha256": "7d36edc4259270b18c5e493df8ff90fedeb3554c9e6ae278997e40b52c0106e6"
+    },
+    "S10": {
+      "description": "raw_edg_corners.npy",
+      "sha256": "e7d6916b814f85f0125e53e1deeac5b9181acbe4431f5c50bf813b55ce58397e"
+    },
+    "S11": {
+      "description": "angular_arrays.npz",
+      "sha256": "852f2aadf9bebdc81956f9d23194f7e2fd80442ef49a4d6593862358a72073d3"
+    }
+  },
+  "full_source_paths": "retained privately, not included",
+  "boundary_representation": "original mesh-sampled geometric boundary segments in solved quadrant; not exact CAD curves",
+  "field_representation": "2304 original observation points; normalized scalar electric intensity only",
+  "authorization": "Owner explicitly authorized these derived figures, minimal data, methods and necessary scripts on 2026-10-15; no open-source license added"
+}

@@ -1,0 +1,2 @@
+# Preserve exact published bytes so manifest hashes survive checkout.
+* -text

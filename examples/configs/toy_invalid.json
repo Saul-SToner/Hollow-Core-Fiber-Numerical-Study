@@ -1,6 +1,0 @@
-{
-  "provenance": "ALGORITHMIC_FIXTURE_NOT_COMSOL",
-  "parameters": {
-    "bad": {"expression": "missing + 1", "unit": "SI", "source": "derived", "description": "Intentional unknown-symbol negative control"}
-  }
-}

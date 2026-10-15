@@ -1,9 +1,0 @@
-{
-  "provenance": "ALGORITHMIC_FIXTURE_NOT_COMSOL",
-  "parameters": {
-    "half_width": {"expression": "width / 2", "unit": "SI", "source": "derived", "description": "Arithmetic dependency, no optical geometry"},
-    "width": {"value": 8.0, "unit": "mm", "source": "algorithmic_input", "description": "Arbitrary toy length"},
-    "angle": {"value": 90.0, "unit": "deg", "source": "algorithmic_input", "description": "Arbitrary toy angle"},
-    "angle_sine": {"expression": "sin(angle)", "unit": "SI", "source": "derived", "description": "Arithmetic sine"}
-  }
-}
