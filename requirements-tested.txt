@@ -1,0 +1,4 @@
+# Direct runtime/test versions used for RC1 qualification, not a hashed lockfile.
+numpy==2.5.4
+pydantic==2.14.1
+pytest==9.1.1
